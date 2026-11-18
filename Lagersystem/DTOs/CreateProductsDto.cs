@@ -9,7 +9,7 @@ namespace Lagersystem.DTOs
         public string Name { get; set; }
         [Required]
         [Range(0.01, 100000)]
-        public decimal Price { get; set; }
+        public int Price { get; set; }
         public string Category { get; set; }
         public string Shelf { get; set; }
         [Required]
